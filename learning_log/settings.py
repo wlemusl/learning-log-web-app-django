@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-pm^vzv!q0aqc1j160ss(u3g_ddwlknb9+%!q)#f#dd=@&x#w-s
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -149,7 +149,7 @@ if cwd == '/app' or cwd[:4] == '/tmp':
     SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
     
     # Allow only Heroku to host the project.
-    ALLOWED_HOSTS = ['learning-log-william.herokuapp.com']
+    ALLOWED_HOSTS = ['learning-log-lemus.herokuapp.com']
 
     DEBUG = False
 
