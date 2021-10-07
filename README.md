@@ -4,3 +4,5 @@ This is a project developed with Django and HTML aiming to produce a simple web 
 1. learning_log = project
 2. learning_logs = app
 3. users = app
+
+Learning Log is a web app that allows you to list the topics you are learning about. Whenever you learn something new about a topic, you can make an entry and summarize what you have learned. The app was deployed succesfully with Heroku. You can register and start using it here: https://learning-log-lemus.herokuapp.com/
