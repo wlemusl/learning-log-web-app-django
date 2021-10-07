@@ -1,1 +1,1 @@
-# learning-log-django-2
+# learning-log-web-app-django
